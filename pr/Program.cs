@@ -36,7 +36,7 @@ try {
     {
         options.AddPolicy("AllowFrontend", policy =>
         {
-            policy.WithOrigins("http://localhost:5266")
+            policy.WithOrigins("http://localhost:3000")
                 .AllowAnyHeader()
                 .AllowAnyMethod()
                 .AllowCredentials();
